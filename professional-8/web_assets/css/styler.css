@@ -1,0 +1,440 @@
+/*
+===============================================
+Fonts example
+===============================================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&amp;display=swap');
+
+
+.display-none {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;  
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.mobrog-privacyM {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid rgb(215, 215, 215);
+    width: 50em;
+    position: fixed;
+    z-index: 15;
+    top: 20%;
+    left: 25%;
+}
+
+
+
+.mobrog-privacyM-container {
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+
+.mobrog-privacyM-items-info {
+    display: flex;
+}
+
+.mobrog-privacyM-items {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    height: 100%;
+}
+
+.mobrog-privacyM-info {
+    background-color: #2B3E4F;
+    padding: 2em 2em;
+    color: #fff;
+    box-shadow: inset 7px 0 5px -7px rgba(255, 255, 255, 0.4);
+}
+
+.mobrog-privacyM-back{
+    background-color: #2B3E4F;
+}
+
+.mobrog-privacyM-back span{
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    padding-right: 9px;
+    padding-top: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.mobrog-privacyM-items-list {
+    list-style: none;
+    background-color: #2B3E4F;
+    width: 15em;
+    text-align: start;
+    display: grid;
+    align-content: center;
+}
+
+.mobrog-privacyM-items-click {
+    padding: 0.4em;
+    background: #577188;
+    border: 0.5px solid rgb(238, 238, 238);
+    cursor: pointer;
+    color: rgb(252, 252, 252);
+    border-radius: 2px;
+    transition: 0.3s;
+    font-size: 14px;
+    width: 100%;
+    
+}
+
+.mobrog-privacyM-items-click:hover {
+    background-color: white;
+    color: #2B3E4F;
+
+}
+
+.mobrog-privacyM-info p {
+    padding-top: 1em;
+    font-size: 13px;
+}
+
+
+
+.mobrog-privacyM-items-div {
+    text-align: center;
+}
+
+.mobrog-privacyM-info-button {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.mobrog-privacyM-content-info-show {
+    display: none;
+}
+
+.mobrog-privacyM-content-info {
+    padding: 1em;
+    margin-left: 1.5em;
+    /* border: 0.5px solid rgb(238, 238, 238); */
+    background-color: #2B3E4F;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow: inset 0px 12px 6px -6px rgba(255, 255, 255, 0.4);
+}
+
+.mobrog-privacyM-content-info p {
+    font-size: 13px;
+}
+
+.mobrog-privacyM-content-info h3 {
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.mobrog-privacyM-info-content-a {
+    color: #F0A00C;
+    text-decoration: none;
+}
+
+.mobrog-privacyM-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    background-color: #2B3E4F;
+
+}
+
+.mobrog-privacyM-checkBox-item input {
+    margin-right: 5px;
+}
+
+.mobrog-privacyM-buttons-container button {
+    padding: 0.5em 2em;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0 0.5em 0 0.5em;
+
+
+}
+
+.mobrog-privacyM-allow,
+.mobrog-privacyM-decline,
+.mobrog-privacyM-menage,
+.mobrog-privacyM-accept-seleced {
+    border: 1px solid #f3a109;
+    color: #fff;
+    background-color: #f3a109;
+    transition: 0.3s;
+}
+
+.mobrog-privacyM-allow:hover,
+.mobrog-privacyM-decline:hover,
+.mobrog-privacyM-menage:hover,
+.mobrog-privacyM-accept-seleced:hover {
+    border: 1px solid #f3a109;
+    color: #f3a109;
+    background-color: #ffffff;
+}
+
+
+
+
+
+.mobrog-privacyM-accept {
+    background-color: #f3a109;
+    border: 1px solid #f3a109;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.mobrog-privacyM-accept:hover {
+    background-color: #fcaf20;
+    color: white;
+}
+
+
+
+
+.mobrog-switch-checkbox {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+.mobrog-privacyM-first-container {
+    width: 25em;
+    border: 1px solid rgb(212, 212, 212);
+    position: fixed;
+    bottom: 2em;
+    left: 2em;
+    background-color: #2B3E4F;
+    color: #fff;
+    z-index: 100;
+}
+
+.mobrog-privacyM-first-container a {
+    color: #fcaf20;
+
+}
+
+
+.mobrog-privacyM-first p {
+    max-height: 15em;
+    overflow-y: auto;
+    margin: 1em;
+    font-size: 14px;
+
+}
+
+.mobrog-privacyM-first h1 {
+    margin: 1em;
+    font-size: 20px;
+}
+
+.mobrog-privacyM-first-container a {
+    padding-bottom: 0.5em;
+}
+
+.mobrog-privacyM-first-buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1em;
+}
+
+.mobrog-privacyM-first-buttons button {
+    margin-top: 0.5em;
+    padding: 0.5em 2em;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.mobrog-privacyM-checkBox-item {
+    display: flex;
+    margin: 0.4em;
+}
+
+.mobrog-privacyM-items-click i {
+    float: right;
+    padding-top: 3px;
+}
+
+.mobrog-privacyM-viewDatails {
+    text-align: end;
+}
+
+.mobrog-privacyM-viewDatails button {
+    padding: 0.3em;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: 0 0.5em 0 0.5em;
+    color: black !important;
+}
+
+.mobrog-privacy-moreInfo-container {
+    background-color: #2B3E4F;
+    color: #fff;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid rgb(215, 215, 215);
+    width: 30%;
+    max-height: 50%;
+    z-index: 15;
+    top: 20%;
+    left: 35%;
+    position: fixed;
+    overflow: auto;
+
+}
+
+.mobrog-privacy-moreInfo {
+    padding: 1em;
+    padding-top: 0;
+    margin-top: 1em;
+    height: 76%;
+    overflow-y: auto;
+}
+
+.mobrog-privacy-moreInfo h2 {
+    font-size: 18px;
+    padding-bottom: 1em;
+    font-weight: 500;
+
+}
+
+
+.mobrog-privacy-moreInfo-list-question {
+    padding-bottom: 2em;
+}
+
+.mobrog-privacy-moreInfo-list-question ul {
+    padding:1em;
+
+}
+
+.mobrog-privacy-moreInfo-list-question ul li{
+    font-size: 13.3px;
+}
+.mobrog-privacy-moreInfo-list p a{
+    color: #f3a109;
+}
+
+.mobrog-privacy-moreInfo-list p {
+    font-size: 13px;
+}
+
+.mobrog-privacy-moreInfo-list-question b {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.mobrog-privacy-moreInfo-text {
+    width: 80%;
+}
+
+.mobrog-privacy-moreInfo-close-div {
+    margin: 0.5em;
+}
+
+.mobrog-privacy-moreInfo-close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.mobrog-privacyM-button-openCookie img{
+    position: fixed;
+    top: 18%;
+    right: 0px;
+    width: 3.2em;
+    cursor: pointer;
+    z-index: 101;
+}
+
+
+
+
+@media (max-width: 1080px) {
+    .mobrog-privacyM-items {
+        height: auto;
+    }
+    .mobrog-privacyM-info {
+        display: none;
+    }
+
+    .mobrog-privacyM-content-info-show {
+        display: block;
+    }
+
+    .mobrog-privacyM-items-list {
+        width: 99.3vw;
+    }
+
+    .mobrog-privacyM-buttons-container {
+        flex-direction: column;
+        padding: 0.5em;
+    }
+
+    .mobrog-privacyM-buttons-container button {
+        margin: 0.2em;
+    }
+
+    .mobrog-privacyM-allow-decline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobrog-privacyM,
+    .mobrog-privacy-moreInfo-container {
+        top: auto;
+        bottom: 70px;
+        left: 0;
+        width:99.6vw;
+    }
+
+
+    .slider:before {
+        left: -1;
+    }
+
+    .switch {
+        margin-bottom: 0.5em;
+    }
+
+    .mobrog-privacyM-first-container {
+        width: 99.6vw;
+        border: 1px solid rgb(212, 212, 212);
+        position: fixed;
+        bottom: 70px;
+        left: 0;
+    }
+
+    .mobrog-privacyM-viewDatails {
+        height: auto;
+    }
+
+    .mobrog-privacyM-viewDatails a {
+        margin-top: 2em;
+    }
+
+    .mobrog-privacy-moreInfo-text {
+        width: 70%;
+    }
+
+}
